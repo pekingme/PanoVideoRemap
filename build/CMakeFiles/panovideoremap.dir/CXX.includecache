@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haodong/kdevelop_projects/PanoVideoRemap/frame_mapper.cpp
+frame_mapper.h
+/home/haodong/kdevelop_projects/PanoVideoRemap/frame_mapper.h
+
+/home/haodong/kdevelop_projects/PanoVideoRemap/frame_mapper.h
+
+/home/haodong/kdevelop_projects/PanoVideoRemap/pano_video_mapper.cpp
+pano_video_mapper.h
+/home/haodong/kdevelop_projects/PanoVideoRemap/pano_video_mapper.h
+utils.h
+/home/haodong/kdevelop_projects/PanoVideoRemap/utils.h
+
+/home/haodong/kdevelop_projects/PanoVideoRemap/pano_video_mapper.h
+string
+-
+iostream
+-
+
+/home/haodong/kdevelop_projects/PanoVideoRemap/utils.cpp
+utils.h
+/home/haodong/kdevelop_projects/PanoVideoRemap/utils.h
+
+/home/haodong/kdevelop_projects/PanoVideoRemap/utils.h
+iostream
+-
+

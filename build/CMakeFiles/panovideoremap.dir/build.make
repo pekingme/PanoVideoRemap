@@ -105,9 +105,57 @@ CMakeFiles/panovideoremap.dir/frame_mapper.cpp.o.provides: CMakeFiles/panovideor
 CMakeFiles/panovideoremap.dir/frame_mapper.cpp.o.provides.build: CMakeFiles/panovideoremap.dir/frame_mapper.cpp.o
 
 
+CMakeFiles/panovideoremap.dir/video_feed.cpp.o: CMakeFiles/panovideoremap.dir/flags.make
+CMakeFiles/panovideoremap.dir/video_feed.cpp.o: ../video_feed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/panovideoremap.dir/video_feed.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panovideoremap.dir/video_feed.cpp.o -c /home/haodong/kdevelop_projects/PanoVideoRemap/video_feed.cpp
+
+CMakeFiles/panovideoremap.dir/video_feed.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/panovideoremap.dir/video_feed.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haodong/kdevelop_projects/PanoVideoRemap/video_feed.cpp > CMakeFiles/panovideoremap.dir/video_feed.cpp.i
+
+CMakeFiles/panovideoremap.dir/video_feed.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/panovideoremap.dir/video_feed.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haodong/kdevelop_projects/PanoVideoRemap/video_feed.cpp -o CMakeFiles/panovideoremap.dir/video_feed.cpp.s
+
+CMakeFiles/panovideoremap.dir/video_feed.cpp.o.requires:
+
+.PHONY : CMakeFiles/panovideoremap.dir/video_feed.cpp.o.requires
+
+CMakeFiles/panovideoremap.dir/video_feed.cpp.o.provides: CMakeFiles/panovideoremap.dir/video_feed.cpp.o.requires
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_feed.cpp.o.provides.build
+.PHONY : CMakeFiles/panovideoremap.dir/video_feed.cpp.o.provides
+
+CMakeFiles/panovideoremap.dir/video_feed.cpp.o.provides.build: CMakeFiles/panovideoremap.dir/video_feed.cpp.o
+
+
+CMakeFiles/panovideoremap.dir/camera.cpp.o: CMakeFiles/panovideoremap.dir/flags.make
+CMakeFiles/panovideoremap.dir/camera.cpp.o: ../camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/panovideoremap.dir/camera.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panovideoremap.dir/camera.cpp.o -c /home/haodong/kdevelop_projects/PanoVideoRemap/camera.cpp
+
+CMakeFiles/panovideoremap.dir/camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/panovideoremap.dir/camera.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haodong/kdevelop_projects/PanoVideoRemap/camera.cpp > CMakeFiles/panovideoremap.dir/camera.cpp.i
+
+CMakeFiles/panovideoremap.dir/camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/panovideoremap.dir/camera.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haodong/kdevelop_projects/PanoVideoRemap/camera.cpp -o CMakeFiles/panovideoremap.dir/camera.cpp.s
+
+CMakeFiles/panovideoremap.dir/camera.cpp.o.requires:
+
+.PHONY : CMakeFiles/panovideoremap.dir/camera.cpp.o.requires
+
+CMakeFiles/panovideoremap.dir/camera.cpp.o.provides: CMakeFiles/panovideoremap.dir/camera.cpp.o.requires
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/camera.cpp.o.provides.build
+.PHONY : CMakeFiles/panovideoremap.dir/camera.cpp.o.provides
+
+CMakeFiles/panovideoremap.dir/camera.cpp.o.provides.build: CMakeFiles/panovideoremap.dir/camera.cpp.o
+
+
 CMakeFiles/panovideoremap.dir/utils.cpp.o: CMakeFiles/panovideoremap.dir/flags.make
 CMakeFiles/panovideoremap.dir/utils.cpp.o: ../utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/panovideoremap.dir/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/panovideoremap.dir/utils.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panovideoremap.dir/utils.cpp.o -c /home/haodong/kdevelop_projects/PanoVideoRemap/utils.cpp
 
 CMakeFiles/panovideoremap.dir/utils.cpp.i: cmake_force
@@ -129,18 +177,100 @@ CMakeFiles/panovideoremap.dir/utils.cpp.o.provides: CMakeFiles/panovideoremap.di
 CMakeFiles/panovideoremap.dir/utils.cpp.o.provides.build: CMakeFiles/panovideoremap.dir/utils.cpp.o
 
 
+CMakeFiles/panovideoremap.dir/mesh.cpp.o: CMakeFiles/panovideoremap.dir/flags.make
+CMakeFiles/panovideoremap.dir/mesh.cpp.o: ../mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/panovideoremap.dir/mesh.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panovideoremap.dir/mesh.cpp.o -c /home/haodong/kdevelop_projects/PanoVideoRemap/mesh.cpp
+
+CMakeFiles/panovideoremap.dir/mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/panovideoremap.dir/mesh.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haodong/kdevelop_projects/PanoVideoRemap/mesh.cpp > CMakeFiles/panovideoremap.dir/mesh.cpp.i
+
+CMakeFiles/panovideoremap.dir/mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/panovideoremap.dir/mesh.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haodong/kdevelop_projects/PanoVideoRemap/mesh.cpp -o CMakeFiles/panovideoremap.dir/mesh.cpp.s
+
+CMakeFiles/panovideoremap.dir/mesh.cpp.o.requires:
+
+.PHONY : CMakeFiles/panovideoremap.dir/mesh.cpp.o.requires
+
+CMakeFiles/panovideoremap.dir/mesh.cpp.o.provides: CMakeFiles/panovideoremap.dir/mesh.cpp.o.requires
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/mesh.cpp.o.provides.build
+.PHONY : CMakeFiles/panovideoremap.dir/mesh.cpp.o.provides
+
+CMakeFiles/panovideoremap.dir/mesh.cpp.o.provides.build: CMakeFiles/panovideoremap.dir/mesh.cpp.o
+
+
+CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o: CMakeFiles/panovideoremap.dir/flags.make
+CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o: ../video_synchronizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o -c /home/haodong/kdevelop_projects/PanoVideoRemap/video_synchronizer.cpp
+
+CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haodong/kdevelop_projects/PanoVideoRemap/video_synchronizer.cpp > CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.i
+
+CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haodong/kdevelop_projects/PanoVideoRemap/video_synchronizer.cpp -o CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.s
+
+CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o.requires:
+
+.PHONY : CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o.requires
+
+CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o.provides: CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o.provides.build
+.PHONY : CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o.provides
+
+CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o.provides.build: CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o
+
+
+CMakeFiles/panovideoremap.dir/video_clip.cpp.o: CMakeFiles/panovideoremap.dir/flags.make
+CMakeFiles/panovideoremap.dir/video_clip.cpp.o: ../video_clip.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/panovideoremap.dir/video_clip.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panovideoremap.dir/video_clip.cpp.o -c /home/haodong/kdevelop_projects/PanoVideoRemap/video_clip.cpp
+
+CMakeFiles/panovideoremap.dir/video_clip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/panovideoremap.dir/video_clip.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haodong/kdevelop_projects/PanoVideoRemap/video_clip.cpp > CMakeFiles/panovideoremap.dir/video_clip.cpp.i
+
+CMakeFiles/panovideoremap.dir/video_clip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/panovideoremap.dir/video_clip.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haodong/kdevelop_projects/PanoVideoRemap/video_clip.cpp -o CMakeFiles/panovideoremap.dir/video_clip.cpp.s
+
+CMakeFiles/panovideoremap.dir/video_clip.cpp.o.requires:
+
+.PHONY : CMakeFiles/panovideoremap.dir/video_clip.cpp.o.requires
+
+CMakeFiles/panovideoremap.dir/video_clip.cpp.o.provides: CMakeFiles/panovideoremap.dir/video_clip.cpp.o.requires
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_clip.cpp.o.provides.build
+.PHONY : CMakeFiles/panovideoremap.dir/video_clip.cpp.o.provides
+
+CMakeFiles/panovideoremap.dir/video_clip.cpp.o.provides.build: CMakeFiles/panovideoremap.dir/video_clip.cpp.o
+
+
 # Object files for target panovideoremap
 panovideoremap_OBJECTS = \
 "CMakeFiles/panovideoremap.dir/pano_video_mapper.cpp.o" \
 "CMakeFiles/panovideoremap.dir/frame_mapper.cpp.o" \
-"CMakeFiles/panovideoremap.dir/utils.cpp.o"
+"CMakeFiles/panovideoremap.dir/video_feed.cpp.o" \
+"CMakeFiles/panovideoremap.dir/camera.cpp.o" \
+"CMakeFiles/panovideoremap.dir/utils.cpp.o" \
+"CMakeFiles/panovideoremap.dir/mesh.cpp.o" \
+"CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o" \
+"CMakeFiles/panovideoremap.dir/video_clip.cpp.o"
 
 # External object files for target panovideoremap
 panovideoremap_EXTERNAL_OBJECTS =
 
 libpanovideoremap.so: CMakeFiles/panovideoremap.dir/pano_video_mapper.cpp.o
 libpanovideoremap.so: CMakeFiles/panovideoremap.dir/frame_mapper.cpp.o
+libpanovideoremap.so: CMakeFiles/panovideoremap.dir/video_feed.cpp.o
+libpanovideoremap.so: CMakeFiles/panovideoremap.dir/camera.cpp.o
 libpanovideoremap.so: CMakeFiles/panovideoremap.dir/utils.cpp.o
+libpanovideoremap.so: CMakeFiles/panovideoremap.dir/mesh.cpp.o
+libpanovideoremap.so: CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o
+libpanovideoremap.so: CMakeFiles/panovideoremap.dir/video_clip.cpp.o
 libpanovideoremap.so: CMakeFiles/panovideoremap.dir/build.make
 libpanovideoremap.so: /usr/local/lib/libopencv_stitching.so.3.2.0
 libpanovideoremap.so: /usr/local/lib/libopencv_superres.so.3.2.0
@@ -191,7 +321,7 @@ libpanovideoremap.so: /usr/local/lib/libopencv_imgcodecs.so.3.2.0
 libpanovideoremap.so: /usr/local/lib/libopencv_imgproc.so.3.2.0
 libpanovideoremap.so: /usr/local/lib/libopencv_core.so.3.2.0
 libpanovideoremap.so: CMakeFiles/panovideoremap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libpanovideoremap.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library libpanovideoremap.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/panovideoremap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -201,7 +331,12 @@ CMakeFiles/panovideoremap.dir/build: libpanovideoremap.so
 
 CMakeFiles/panovideoremap.dir/requires: CMakeFiles/panovideoremap.dir/pano_video_mapper.cpp.o.requires
 CMakeFiles/panovideoremap.dir/requires: CMakeFiles/panovideoremap.dir/frame_mapper.cpp.o.requires
+CMakeFiles/panovideoremap.dir/requires: CMakeFiles/panovideoremap.dir/video_feed.cpp.o.requires
+CMakeFiles/panovideoremap.dir/requires: CMakeFiles/panovideoremap.dir/camera.cpp.o.requires
 CMakeFiles/panovideoremap.dir/requires: CMakeFiles/panovideoremap.dir/utils.cpp.o.requires
+CMakeFiles/panovideoremap.dir/requires: CMakeFiles/panovideoremap.dir/mesh.cpp.o.requires
+CMakeFiles/panovideoremap.dir/requires: CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o.requires
+CMakeFiles/panovideoremap.dir/requires: CMakeFiles/panovideoremap.dir/video_clip.cpp.o.requires
 
 .PHONY : CMakeFiles/panovideoremap.dir/requires
 

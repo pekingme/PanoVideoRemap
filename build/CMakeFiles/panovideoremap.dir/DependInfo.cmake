@@ -4,9 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/haodong/kdevelop_projects/PanoVideoRemap/camera.cpp" "/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/panovideoremap.dir/camera.cpp.o"
   "/home/haodong/kdevelop_projects/PanoVideoRemap/frame_mapper.cpp" "/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/panovideoremap.dir/frame_mapper.cpp.o"
+  "/home/haodong/kdevelop_projects/PanoVideoRemap/mesh.cpp" "/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/panovideoremap.dir/mesh.cpp.o"
   "/home/haodong/kdevelop_projects/PanoVideoRemap/pano_video_mapper.cpp" "/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/panovideoremap.dir/pano_video_mapper.cpp.o"
   "/home/haodong/kdevelop_projects/PanoVideoRemap/utils.cpp" "/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/panovideoremap.dir/utils.cpp.o"
+  "/home/haodong/kdevelop_projects/PanoVideoRemap/video_clip.cpp" "/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/panovideoremap.dir/video_clip.cpp.o"
+  "/home/haodong/kdevelop_projects/PanoVideoRemap/video_feed.cpp" "/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/panovideoremap.dir/video_feed.cpp.o"
+  "/home/haodong/kdevelop_projects/PanoVideoRemap/video_synchronizer.cpp" "/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

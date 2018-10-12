@@ -136,6 +136,33 @@ panovideoremap/fast:
 	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/build
 .PHONY : panovideoremap/fast
 
+camera.o: camera.cpp.o
+
+.PHONY : camera.o
+
+# target to build an object file
+camera.cpp.o:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/camera.cpp.o
+.PHONY : camera.cpp.o
+
+camera.i: camera.cpp.i
+
+.PHONY : camera.i
+
+# target to preprocess a source file
+camera.cpp.i:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/camera.cpp.i
+.PHONY : camera.cpp.i
+
+camera.s: camera.cpp.s
+
+.PHONY : camera.s
+
+# target to generate assembly for a file
+camera.cpp.s:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/camera.cpp.s
+.PHONY : camera.cpp.s
+
 frame_mapper.o: frame_mapper.cpp.o
 
 .PHONY : frame_mapper.o
@@ -162,6 +189,33 @@ frame_mapper.s: frame_mapper.cpp.s
 frame_mapper.cpp.s:
 	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/frame_mapper.cpp.s
 .PHONY : frame_mapper.cpp.s
+
+mesh.o: mesh.cpp.o
+
+.PHONY : mesh.o
+
+# target to build an object file
+mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/mesh.cpp.o
+.PHONY : mesh.cpp.o
+
+mesh.i: mesh.cpp.i
+
+.PHONY : mesh.i
+
+# target to preprocess a source file
+mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/mesh.cpp.i
+.PHONY : mesh.cpp.i
+
+mesh.s: mesh.cpp.s
+
+.PHONY : mesh.s
+
+# target to generate assembly for a file
+mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/mesh.cpp.s
+.PHONY : mesh.cpp.s
 
 pano_video_example.o: pano_video_example.cpp.o
 
@@ -244,6 +298,87 @@ utils.cpp.s:
 	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/utils.cpp.s
 .PHONY : utils.cpp.s
 
+video_clip.o: video_clip.cpp.o
+
+.PHONY : video_clip.o
+
+# target to build an object file
+video_clip.cpp.o:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_clip.cpp.o
+.PHONY : video_clip.cpp.o
+
+video_clip.i: video_clip.cpp.i
+
+.PHONY : video_clip.i
+
+# target to preprocess a source file
+video_clip.cpp.i:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_clip.cpp.i
+.PHONY : video_clip.cpp.i
+
+video_clip.s: video_clip.cpp.s
+
+.PHONY : video_clip.s
+
+# target to generate assembly for a file
+video_clip.cpp.s:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_clip.cpp.s
+.PHONY : video_clip.cpp.s
+
+video_feed.o: video_feed.cpp.o
+
+.PHONY : video_feed.o
+
+# target to build an object file
+video_feed.cpp.o:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_feed.cpp.o
+.PHONY : video_feed.cpp.o
+
+video_feed.i: video_feed.cpp.i
+
+.PHONY : video_feed.i
+
+# target to preprocess a source file
+video_feed.cpp.i:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_feed.cpp.i
+.PHONY : video_feed.cpp.i
+
+video_feed.s: video_feed.cpp.s
+
+.PHONY : video_feed.s
+
+# target to generate assembly for a file
+video_feed.cpp.s:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_feed.cpp.s
+.PHONY : video_feed.cpp.s
+
+video_synchronizer.o: video_synchronizer.cpp.o
+
+.PHONY : video_synchronizer.o
+
+# target to build an object file
+video_synchronizer.cpp.o:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.o
+.PHONY : video_synchronizer.cpp.o
+
+video_synchronizer.i: video_synchronizer.cpp.i
+
+.PHONY : video_synchronizer.i
+
+# target to preprocess a source file
+video_synchronizer.cpp.i:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.i
+.PHONY : video_synchronizer.cpp.i
+
+video_synchronizer.s: video_synchronizer.cpp.s
+
+.PHONY : video_synchronizer.s
+
+# target to generate assembly for a file
+video_synchronizer.cpp.s:
+	$(MAKE) -f CMakeFiles/panovideoremap.dir/build.make CMakeFiles/panovideoremap.dir/video_synchronizer.cpp.s
+.PHONY : video_synchronizer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -254,9 +389,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... pano_video_example"
 	@echo "... panovideoremap"
+	@echo "... camera.o"
+	@echo "... camera.i"
+	@echo "... camera.s"
 	@echo "... frame_mapper.o"
 	@echo "... frame_mapper.i"
 	@echo "... frame_mapper.s"
+	@echo "... mesh.o"
+	@echo "... mesh.i"
+	@echo "... mesh.s"
 	@echo "... pano_video_example.o"
 	@echo "... pano_video_example.i"
 	@echo "... pano_video_example.s"
@@ -266,6 +407,15 @@ help:
 	@echo "... utils.o"
 	@echo "... utils.i"
 	@echo "... utils.s"
+	@echo "... video_clip.o"
+	@echo "... video_clip.i"
+	@echo "... video_clip.s"
+	@echo "... video_feed.o"
+	@echo "... video_feed.i"
+	@echo "... video_feed.s"
+	@echo "... video_synchronizer.o"
+	@echo "... video_synchronizer.i"
+	@echo "... video_synchronizer.s"
 .PHONY : help
 
 

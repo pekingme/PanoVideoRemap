@@ -12,7 +12,7 @@ Build Type=Debug
 CMake Binary=file:///usr/bin/cmake
 Environment Profile=
 Extra Arguments=
-Install Directory=
+Install Directory=file:///usr/local
 
 [Defines And Includes][Compiler]
 Name=GCC
@@ -29,7 +29,7 @@ Name=pano_video_example
 Type=Native Application
 
 [Launch][Launch Configuration 0][Data]
-Arguments=../example_data/output ../example_data/calibration_result.yaml ../example_data/video_lists.yaml
+Arguments=../example_data/output ../example_data/video_lists.yaml ../example_data/calibration_result.yaml
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x1c\x00P\x00a\x00n\x00o\x00V\x00i\x00d\x00e\x00o\x00R\x00e\x00m\x00a\x00p\x00\x00\x00$\x00p\x00a\x00n\x00o\x00_\x00v\x00i\x00d\x00e\x00o\x00_\x00e\x00x\x00a\x00m\x00p\x00l\x00e)
 Dependency Action=Build
 EnvironmentGroup=

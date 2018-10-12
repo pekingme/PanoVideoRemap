@@ -1,0 +1,12 @@
+%YAML:1.0
+
+NumCamera: 4
+
+# Videos should be recorded with a reasonably small amount of time difference.
+Videos:
+  - { CameraName: "CameraF", File: "/media/haodong/TOSHIBA 1T/Data/set4/calibF.MP4" }
+  - { CameraName: "CameraR", File: "/media/haodong/TOSHIBA 1T/Data/set4/calibR.MP4" }
+  - { CameraName: "CameraB", File: "/media/haodong/TOSHIBA 1T/Data/set4/calibB.MP4" }
+  - { CameraName: "CameraL", File: "/media/haodong/TOSHIBA 1T/Data/set4/calibL.MP4" }
+# Max time shift in synchronization (seconds)
+MaxShift: 5

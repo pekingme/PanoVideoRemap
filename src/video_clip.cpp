@@ -126,21 +126,32 @@ bool VideoClip::ExtractAudioSamples ( Mat* mat, const int duration )
     return samples.size() != 0;
 }
 
-void VideoClip::LoadVideoCapture()
+Mat VideoClip::ReadSynchedFrame ( const double global_time )
 {
-    if ( &_video_capture != NULL && _video_capture.isOpened() )
+    if ( &_video_capture == NULL || !_video_capture.isOpened() )
     {
-        _video_capture.set ( CV_CAP_PROP_POS_FRAMES, 0 );
-        return;
+        _video_capture = VideoCapture ( _file_name );
+        _frame_size = Size ( _video_capture.get ( CV_CAP_PROP_FRAME_WIDTH ), _video_capture.get ( CV_CAP_PROP_FRAME_HEIGHT ) );
     }
-    _video_capture = VideoCapture ( _file_name );
     if ( !_video_capture.isOpened() )
     {
         cerr << "Cannot open video file: " << _file_name << endl;
-        _loaded = false;
     }
-    _frame_size = Size ( _video_capture.get ( CV_CAP_PROP_FRAME_WIDTH ), _video_capture.get ( CV_CAP_PROP_FRAME_HEIGHT ) );
-    _loaded = true;
+    Mat frame;
+    double local_time = global_time - _shift_in_seconds;
+    // Returns empty matrix if video has not started yet.
+    if ( local_time < 0.0 )
+    {
+        return frame;
+    }
+    _video_capture.set ( CV_CAP_PROP_POS_MSEC, local_time * 1000.0 );
+    // Returns empty matrix if video has finished.
+    if ( !_video_capture.read ( frame ) )
+    {
+        return frame;
+    }
+
+    return frame;
 }
 
 void VideoClip::CopySamplesToVector ( const AVCodecContext* codec_context, const AVFrame* frame, vector< float >& samples )
@@ -149,4 +160,3 @@ void VideoClip::CopySamplesToVector ( const AVCodecContext* codec_context, const
     ulong size = frame->nb_samples * av_get_bytes_per_sample ( codec_context->sample_fmt ) / sizeof ( float );
     samples.insert ( samples.end(), data_begin, data_begin + size );
 }
-

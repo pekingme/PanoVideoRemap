@@ -1,0 +1,14 @@
+%YAML:1.0
+
+# Videos should be recorded with a reasonably small amount of time difference.
+Videos:
+  - { CameraName: "CameraR", Folder: "/media/haodong/TOSHIBA 1T/Data/set13/temp testing/CameraR/" }
+  - { CameraName: "CameraF", Folder: "/media/haodong/TOSHIBA 1T/Data/set13/temp testing/CameraF/" }
+  - { CameraName: "CameraB", Folder: "/media/haodong/TOSHIBA 1T/Data/set13/temp testing/CameraB/" }
+  - { CameraName: "CameraL", Folder: "/media/haodong/TOSHIBA 1T/Data/set13/temp testing/CameraL/" }
+
+# Max time shift in synchronization (seconds)
+MaxShift: 20
+
+# Start index for sample collection
+SampleStartIndex: 0

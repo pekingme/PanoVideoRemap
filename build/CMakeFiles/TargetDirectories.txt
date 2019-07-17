@@ -1,4 +1,4 @@
-/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/edit_cache.dir
-/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/rebuild_cache.dir
-/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/pano_video_example.dir
-/home/haodong/kdevelop_projects/PanoVideoRemap/build/CMakeFiles/panovideoremap.dir
+/home/haodong/KDevelop-Workspace/PanoVideoRemap/build/CMakeFiles/rebuild_cache.dir
+/home/haodong/KDevelop-Workspace/PanoVideoRemap/build/CMakeFiles/edit_cache.dir
+/home/haodong/KDevelop-Workspace/PanoVideoRemap/build/CMakeFiles/panovideoremap.dir
+/home/haodong/KDevelop-Workspace/PanoVideoRemap/build/CMakeFiles/pano_video_example.dir

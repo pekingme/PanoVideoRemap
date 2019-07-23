@@ -2,11 +2,16 @@
 
 # Videos should be recorded with a reasonably small amount of time difference.
 Videos:
-  - { CameraName: "CameraR", Folder: "/media/haodong/TOSHIBA 1T/Data/set13/temp testing/CameraR/" }
-  - { CameraName: "CameraF", Folder: "/media/haodong/TOSHIBA 1T/Data/set13/temp testing/CameraF/" }
-  - { CameraName: "CameraB", Folder: "/media/haodong/TOSHIBA 1T/Data/set13/temp testing/CameraB/" }
-  - { CameraName: "CameraL", Folder: "/media/haodong/TOSHIBA 1T/Data/set13/temp testing/CameraL/" }
+#  - { CameraName: "CameraR", Folder: "/media/haodong/TOSHIBA 1T/Data/set15/CameraR/" }
+#  - { CameraName: "CameraF", Folder: "/media/haodong/TOSHIBA 1T/Data/set15/CameraF/" }
+#  - { CameraName: "CameraB", Folder: "/media/haodong/TOSHIBA 1T/Data/set15/CameraB/" }
+#  - { CameraName: "CameraL", Folder: "/media/haodong/TOSHIBA 1T/Data/set15/CameraL/" }
 
+  - { CameraName: "CameraR", Folder: "/home/haodong/Downloads/Whitmore/f2/CameraR/" }
+  - { CameraName: "CameraF", Folder: "/home/haodong/Downloads/Whitmore/f2/CameraF/" }
+  - { CameraName: "CameraB", Folder: "/home/haodong/Downloads/Whitmore/f2/CameraB/" }
+  - { CameraName: "CameraL", Folder: "/home/haodong/Downloads/Whitmore/f2/CameraL/" }
+  
 # Max time shift in synchronization (seconds)
 MaxShift: 20
 
